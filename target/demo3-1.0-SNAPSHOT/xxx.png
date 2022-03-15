@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>download</title>
+</head>
+<body>
+<!-- 文本和图片是浏览器的识别的，但是压缩包浏览器就无法识别；识别的内容直接显示，不识别的就直接下载；所以为了下图片和文本就需要属性下载-->
+  <a href="" download>文本文件</a><br>
+  <hr>
+  <a href="" download="xxx.png">图片文件</a><br>
+  <hr>
+<a href="">压缩文件</a><br>
+<br>
+</body>
+</html>

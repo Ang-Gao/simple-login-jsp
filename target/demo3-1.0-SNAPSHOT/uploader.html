@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<!--设置方法为post然后更改表单类型为上传文件的表单，然后设置地址,然后表单元素：普通的表单项，文件项。设置表单name属性值，否则无法接收数据 -->
+    <form method="post" enctype="multipart/form-data" action="uploadServlet" style="text-align: center">
+        姓名：<input type="text" name="username"><br>
+        <br>
+        文件：<input type="file" name="myFile"><br>
+        <!--默认button是提交表单-->
+        <br>
+        <button>提交表单</button>
+    </form>
+</body>
+
+</html>
