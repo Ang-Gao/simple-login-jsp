@@ -26,5 +26,6 @@ public class UserServlet extends HttpServlet {
             request.setAttribute("messageModel",messageModel);
             request.getRequestDispatcher("login.jsp").forward(request,response);
         }
+        System.out.println(uname);
     }
 }

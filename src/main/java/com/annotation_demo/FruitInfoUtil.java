@@ -1,10 +1,10 @@
 package com.annotation_demo;
 
+import org.junit.Test;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
-
 public class FruitInfoUtil {
-
     public static void getFruitInfo(Class<?> clazz){
         String fruitName = null;
         String fruitColor = null;
@@ -14,6 +14,7 @@ public class FruitInfoUtil {
 
         for(Field field: fields){
             //System.out.println(field.toString());
+            //isAnnotationPresent给field用，直接给class用就是false
             if (field.isAnnotationPresent((FruitName.class))){
                 FruitName fruitName1 =  field.getAnnotation(FruitName.class);
                 fruitName = fruitName1.name();
