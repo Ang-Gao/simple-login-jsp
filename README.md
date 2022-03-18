@@ -1,5 +1,6 @@
 # simple-login-jsp
-<h2>Well..just a very basic frontend judgment of input and backend double-checking the data with login website and database, but all of all without any UI...</h2>
+<h2>Well..</h2>
+  Just a very basic frontend judgment of input and backend double-checking the data with login website and database, but all of all without any UI...
 
 <hr>
 <h2>Backend: Servlet+MySQL+MyBatis</h2>
